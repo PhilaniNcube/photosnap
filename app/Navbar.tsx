@@ -37,7 +37,7 @@ const Navbar = () => {
           ))}
         </ul>
 
-        <BlackButton href="/invite">Get An Invite</BlackButton>
+        <BlackButton href="/pricing">Get An Invite</BlackButton>
       </nav>
     </header>
   );

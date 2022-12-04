@@ -13,7 +13,7 @@ const Header = () => {
           make it easy to share photos, tell stories and connect with others.
         </p>
 
-        <Link href="/invite" className="flex items-center space-x-3 text-white">
+        <Link href="/pricing" className="flex items-center space-x-3 text-white">
           <p className="text-md tracking-wider text-white uppercase">Get An Invite</p>
           <svg xmlns="http://www.w3.org/2000/svg" width="43" height="14">
             <g fill="none" fill-rule="evenodd" stroke="#ffffff">

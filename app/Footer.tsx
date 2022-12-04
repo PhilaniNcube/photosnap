@@ -76,7 +76,7 @@ const Footer = () => {
         <div className="flex flex-1 justify-end">
           <div className="h-32 flex flex-col justify-between">
             <Link
-              href="/invite"
+              href="/pricing"
               className="flex space-x-10 justify-between items-center"
             >
               <p className="text-white uppercase font-medium">Get An Invite</p>
