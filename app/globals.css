@@ -20,6 +20,6 @@
 
 @layer components {
     .gradient {
-      @apply bg-gradient-to-bl from-gard-three via-grad-two to-grad-one
+      @apply bg-gradient-to-bl from-grad-three via-grad-two to-grad-one
     }
 }
