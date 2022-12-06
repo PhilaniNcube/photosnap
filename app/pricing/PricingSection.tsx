@@ -47,7 +47,8 @@ const [enabled, setEnabled] = useState(false);
               Pick Plan
             </button>
           </article>
-          <article className="w-full h-[550px] bg-black p-8 flex flex-col justify-center space-y-10 items-center">
+          <article className="w-full h-[550px] bg-black p-8 flex flex-col justify-center space-y-10 items-center relative">
+            <div className="h-2 absolute top-0 right-0 left-0 gradient"/>
             <h3 className="text-2xl text-white">Pro</h3>
             <p className="text-slate-200 text-center text-base leading-7">
               More advanced features available. Recommended for photography
