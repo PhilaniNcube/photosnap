@@ -4,7 +4,7 @@ import Link from "next/link";
 const Designed = () => {
   return (
     <section className="grid grid-cols-5">
-      <div className="bg-white py-10 col-span-2 md:py-20 px-10 md:px-20 lg:px-24 flex flex-col justify-center space-y-4">
+      <div className="bg-white py-10 col-span-5 sm:col-span-3 lg:col-span-2 md:py-20 px-10 md:px-20 lg:px-24 flex flex-col justify-center space-y-4">
         <h1 className="text-black uppercase leading-10">
           Designed for everyone
         </h1>
@@ -33,7 +33,7 @@ const Designed = () => {
         width={830}
         height={600}
         alt="Hero"
-        className="w-full col-span-3 object-cover aspect-video"
+        className="w-full h-full col-span-5 sm:col-span-2 lg:col-span-3 object-cover aspect-video sm:aspect-[3/5] lg:aspect-video"
       />
     </section>
   );

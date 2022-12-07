@@ -9,9 +9,9 @@ const SectionTwo = () => {
         width={830}
         height={600}
         alt="Hero"
-        className="w-full col-span-3 object-cover aspect-video"
+        className="w-full h-full col-span-5 sm:col-span-2 lg:col-span-3 object-cover aspect-video sm:aspect-[3/5] lg:aspect-video"
       />
-      <div className="bg-white py-10 col-span-2 md:py-20 px-10 md:px-20 lg:px-24 flex flex-col justify-center space-y-4">
+      <div className="bg-white py-10 col-span-5 sm:col-span-3 lg:col-span-2 md:py-20 px-10 md:px-20 lg:px-24 flex flex-col justify-center space-y-4">
         <h1 className="text-black uppercase leading-10">
           Beautiful stories every time
         </h1>
@@ -21,7 +21,10 @@ const SectionTwo = () => {
           Then share your story with everyone.
         </p>
 
-        <Link href="/stories" className="flex items-center space-x-3 text-black">
+        <Link
+          href="/stories"
+          className="flex items-center space-x-3 text-black"
+        >
           <p className="text-md tracking-wider text-black uppercase">
             View the stories
           </p>
