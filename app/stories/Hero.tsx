@@ -9,21 +9,21 @@ const Hero = () => {
         width={1920}
         height={1080}
         alt="Hero"
-        className="w-full aspect-3/1 object-cover"
+        className="w-full aspect-square md:aspect-video object-cover"
       />
-      <div className="absolute flex flex-col justify-center items-start space-y-8 inset-0 p-20">
-        <p className="uppercase text-white ">
+      <div className="absolute flex flex-col justify-center items-start space-y-8 inset-0 p-4 sm:p-10 md:p-20">
+        <p className="uppercase text-white hidden md:block">
           Last month&apos;s featured story
         </p>
         <h1 className="text-white uppercase leading-10">
           Hazy full <br /> moon of <br />
           Appalachia
         </h1>
-        <p className="text-white text-md">
+        <p className="text-white hidden md:block text-md">
           March 2nd 2020 <span className="font-bold">by John Appleseed</span>
         </p>
 
-        <p className="text-white text-lg leading-7 max-w-[50ch]">
+        <p className="text-white text-xs md:text-lg leading-7 md:max-w-[50ch]">
           The dissected plateau area, while not actually made up of geological
           mountains, is popularly called &quot;mountains,&quot; especially in
           eastern Kentucky and West Virginia, and while the ridges are not high,

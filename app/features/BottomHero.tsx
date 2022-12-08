@@ -8,10 +8,10 @@ const BottomHero = () => {
         src="/shared/desktop/bg-beta.jpg"
         width={1440}
         height={280}
-        className="w-full object-cover"
+        className="w-full object-cover min-h-[400px]"
         alt="Background"
       />
-      <div className="absolute inset-0 p-10 md:p-24 flex flex-col md:flex-row md:justify-between md:items-center">
+      <div className="absolute inset-0 p-10 md:p-24 flex flex-col md:flex-row justify-between md:items-center">
         <h1 className="text-white leading-10">
           We&apos;re in beta. <br /> Get your invite <br />
           today!

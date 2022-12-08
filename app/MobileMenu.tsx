@@ -25,7 +25,7 @@ const MobileMenu = () => {
     ];
 
   return (
-    <div className="md:hidden">
+    <div className="z-40 md:hidden">
       <svg
         onClick={() => setOpen(!open)}
         xmlns="http://www.w3.org/2000/svg"

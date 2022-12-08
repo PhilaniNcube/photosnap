@@ -31,8 +31,8 @@ const Footer = () => {
   return (
     <footer className="bg-black">
       {/***Desktop Footer Starts** */}
-      <div className="py-12 lg:py-16 max-w-7xl mx-auto hidden lg:flex flex-row justify-between">
-        <div className="flex">
+      <div className="py-12 lg:py-16 max-w-7xl mx-auto  flex flex-col md:flex-row justify-between">
+        <div className="flex flex-col md:flex-row">
           <div className="flex flex-col h-32 justify-between">
             <svg xmlns="http://www.w3.org/2000/svg" width="170" height="16">
               <defs>
@@ -65,7 +65,7 @@ const Footer = () => {
               <FaInstagram className="h-6 w-6 text-white" />
             </span>
           </div>
-          <nav className="text-white ml-16 uppercase font-medium flex flex-col space-y-3">
+          <nav className="text-white py-6 lg:py-0 lg:ml-16 uppercase font-medium flex flex-col space-y-3">
             {links.map((link, i) => (
               <Link className="uppercase" key={i} href={link.href}>
                 {link.name}
@@ -73,7 +73,7 @@ const Footer = () => {
             ))}
           </nav>
         </div>
-        <div className="flex flex-1 justify-end">
+        <div className="flex flex-1 mt-5 lg:mt-0 lg:justify-end">
           <div className="h-32 flex flex-col justify-between">
             <Link
               href="/pricing"
