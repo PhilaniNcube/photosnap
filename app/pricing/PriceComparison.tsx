@@ -9,23 +9,23 @@ const PriceComparison = () => {
           <thead className="border-b-2 border-black py-4">
             <tr className=" uppercase">
               <td>
-                <h4 className="text-xl">The Features</h4>
+                <h4 className="text-md lg:text-xl">The Features</h4>
               </td>
               <td className="w-24">
-                <h4 className="text-xl">Basic</h4>
+                <h4 className="text-md lg:text-xl">Basic</h4>
               </td>
               <td className="w-24">
-                <h4 className="text-xl">Pro</h4>
+                <h4 className="text-md lg:text-xl">Pro</h4>
               </td>
               <td className="w-24">
-                <h4 className="text-xl">Business</h4>
+                <h4 className="text-md lg:text-xl">Business</h4>
               </td>
             </tr>
           </thead>
-          <tbody className="text-black text-md uppercase">
+          <tbody className=" text-black text-md uppercase">
             <tr className="py-6 border-b border-slate-400">
               <td>
-                <p>Unlimited story posting</p>
+                <p className="text-xs md:text-sm">Unlimited story posting</p>
               </td>
               <td>
                 <svg
@@ -78,7 +78,7 @@ const PriceComparison = () => {
             </tr>
             <tr className="py-6 border-b border-slate-400">
               <td>
-                <p>Unlimited Photo Upload</p>
+                <p className="text-xs md:text-sm">Unlimited Photo Upload</p>
               </td>
               <td>
                 <svg
@@ -131,7 +131,7 @@ const PriceComparison = () => {
             </tr>
             <tr className="py-6 border-b border-slate-400">
               <td>
-                <p>Embedding Custom Content</p>
+                <p className="text-xs md:text-sm">Embedding Custom Content</p>
               </td>
               <td></td>
               <td>
@@ -169,7 +169,7 @@ const PriceComparison = () => {
             </tr>
             <tr className="py-6 border-b border-slate-400">
               <td>
-                <p>Customize Metadata</p>
+                <p className="text-xs md:text-sm">Customize Metadata</p>
               </td>
               <td></td>
               <td>
@@ -207,7 +207,7 @@ const PriceComparison = () => {
             </tr>
             <tr className="py-6 border-b border-slate-400">
               <td>
-                <p>Advanced Metrics</p>
+                <p className="text-xs md:text-sm">Advanced Metrics</p>
               </td>
               <td></td>
               <td></td>
@@ -230,7 +230,7 @@ const PriceComparison = () => {
             </tr>
             <tr className="py-6 border-b border-slate-400">
               <td>
-                <p>Photo Downloads</p>
+                <p className="text-xs md:text-sm">Photo Downloads</p>
               </td>
               <td></td>
               <td></td>
@@ -253,7 +253,7 @@ const PriceComparison = () => {
             </tr>
             <tr className="py-6 border-b border-slate-400">
               <td>
-                <p>Search Engine Indexing</p>
+                <p className="text-xs md:text-sm">Search Engine Indexing</p>
               </td>
               <td></td>
               <td></td>
@@ -276,7 +276,7 @@ const PriceComparison = () => {
             </tr>
             <tr className="py-6 border-b border-slate-400">
               <td>
-                <p>Custom Analytics</p>
+                <p className="text-xs md:text-sm">Custom Analytics</p>
               </td>
               <td></td>
               <td></td>

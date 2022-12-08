@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import BlackButton from "../components/BlackButton";
+import MobileMenu from "./MobileMenu";
 
 const Navbar = () => {
 
@@ -28,7 +29,7 @@ const Navbar = () => {
             width={170}
             height={16}
             alt="logo"
-            className="w-44 object-cover"
+            className="w-24 md:w-44 object-cover"
           />
         </Link>
         <ul className="hidden md:flex items-center space-x-3 text-black uppercase">
@@ -38,6 +39,7 @@ const Navbar = () => {
         </ul>
 
         <BlackButton href="/pricing">Get An Invite</BlackButton>
+        <MobileMenu />
       </nav>
     </header>
   );
